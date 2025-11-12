@@ -201,7 +201,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
   }
 
   // ---- Timer 5 minuta ----
-  let totalSeconds = 5 * 60;
+  let totalSeconds = 40 * 60;
   const timerEl = document.getElementById('timer');
   const timerInterval = setInterval(()=>{
     totalSeconds--;
